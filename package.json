@@ -1,7 +1,7 @@
 {
   "name": "team_profile_generator",
   "version": "1.0.0",
-  "description": "unit 10 homework",
+  "description": "Homework 10 - OOP",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/andrew18929/Team_Profile_Generator.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/andrew18929/Team_Profile_Generator/issues"
   },
