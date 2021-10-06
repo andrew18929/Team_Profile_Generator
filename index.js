@@ -48,7 +48,7 @@ function addTeamMember() {
             employeeInfo = 'GitHub username';
         } else if (role === 'Intern') {
             employeeInfo = 'school attended';
-        } else if (role === 'Manager') {
+        } else {
             employeeInfo = 'office phone number'
         }
 
@@ -72,7 +72,7 @@ function addTeamMember() {
             let newTeamMember;
             if (role === 'Engineer') {
                 newTeamMember = new Engineer(name, id, email, employeeInfo);
-            } else if (role = 'Intern') {
+            } else if (role === 'Intern') {
                 newTeamMember = new Intern(name, id, email, employeeInfo);
             } else if (role === 'Manager') {
                 newTeamMember = new Manager(name, id, email, employeeInfo);
@@ -128,7 +128,7 @@ function addHTML(teamMember) {
         let teamData = "";
         if (role === 'Engineer') {
             const gitHubAcct = teamMember.getGithub();
-            teamData = `<div class="col-6">
+            teamData = `<div class="col-sm">
             <div class="card bg-warning mx-auto my-3" style="width: 18rem">
             <h5 class="card-header text-center">${name}<br /><br />Engineer</h5>
             <ul class="list-group list-group-flush">
@@ -140,24 +140,24 @@ function addHTML(teamMember) {
         </div>`;
         } else if (role === 'Intern') {
             const school = teamMember.getSchool();
-            teamData = `<div class="col-6">
+            teamData = `<div class="col-sm">
             <div class="card bg-warning mx-auto my-3" style="width: 18rem">
             <h5 class="card-header text-center">${name}<br /><br />Intern</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>ID: </b>${id}</li>
-                <li class="list-group-item"><b>Email Address: ${email}</li>
+                <li class="list-group-item"><b>Email Address: </b>${email}</li>
                 <li class="list-group-item"><b>School: </b>${school}</li>
             </ul>
             </div>
         </div>`;
         } else if (role === 'Manager') {
             const offPhoneNumber = teamMember.getOfficeNumber();
-            teamData = `<div class="col-6">
+            teamData = `<div class="col-sm">
             <div class="card bg-warning mx-auto my-3" style="width: 18rem">
             <h5 class="card-header text-center">${name}<br /><br />Manager</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>ID: </b>${id}</li>
-                <li class="list-group-item"><b>Email Address: ${email}</li>
+                <li class="list-group-item"><b>Email Address: </b>${email}</li>
                 <li class="list-group-item"><b>Office Phone: </b>${offPhoneNumber}</li>
             </ul>
             </div>
