@@ -48,7 +48,7 @@ describe('Employee Test', () => {
     - should get name using getName()
     */
    describe('getName', () => {
-       it('should get name using getName()', () {
+       it('should get name using getName()', () => {
            const testName = 'John';
            const eo = new Employee(testName);
            expect(eo.getName()).toBe(testName);
@@ -74,7 +74,7 @@ describe('Employee Test', () => {
    describe('getEmail', () => {
        it('should get email using getEmail()', () => {
            const testEmail = 'test@email.com';
-           const eo = new Employee('John', 101,, testEmail);
+           const eo = new Employee('John', 101, testEmail);
            expect(eo.getEmail()).toBe(testEmail);
        });
    });

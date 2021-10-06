@@ -130,7 +130,7 @@ function addHTML(teamMember) {
             const gitHubAcct = teamMember.getGithub();
             teamData = `<div class="col-sm">
             <div class="card bg-warning mx-auto my-3" style="width: 18rem">
-            <h5 class="card-header text-center">${name}<br /><br />Engineer</h5>
+            <h5 class="card-header text-center"><b>${name}</b><br /><br />Engineer</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>ID: </b>${id}</li>
                 <li class="list-group-item"><b>Email Address: </b>${email}</li>
@@ -142,7 +142,7 @@ function addHTML(teamMember) {
             const school = teamMember.getSchool();
             teamData = `<div class="col-sm">
             <div class="card bg-warning mx-auto my-3" style="width: 18rem">
-            <h5 class="card-header text-center">${name}<br /><br />Intern</h5>
+            <h5 class="card-header text-center"><b>${name}</b><br /><br />Intern</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>ID: </b>${id}</li>
                 <li class="list-group-item"><b>Email Address: </b>${email}</li>
@@ -154,7 +154,7 @@ function addHTML(teamMember) {
             const offPhoneNumber = teamMember.getOfficeNumber();
             teamData = `<div class="col-sm">
             <div class="card bg-warning mx-auto my-3" style="width: 18rem">
-            <h5 class="card-header text-center">${name}<br /><br />Manager</h5>
+            <h5 class="card-header text-center"><b>${name}</b><br /><br />Manager</h5>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>ID: </b>${id}</li>
                 <li class="list-group-item"><b>Email Address: </b>${email}</li>
