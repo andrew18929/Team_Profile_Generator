@@ -21,6 +21,7 @@ from Managers, Engineers, and Interns.
 https://user-images.githubusercontent.com/87145391/136307113-e4e54c25-5770-49cb-a030-e1605b6832aa.mp4
 
 ## Snapshot
+![Capturea](https://user-images.githubusercontent.com/87145391/136307779-2c80dad5-157d-4247-879a-662eef208a71.JPG)
 
 ## Installation
 - Clone repo
