@@ -4,6 +4,9 @@
 Team Profile Generator is a command line input application that prompts the user to input information about team members. The user can add as many team members as needed, differing them
 from Managers, Engineers, and Interns.
 
+## Link to Video Walkthrough
+https://youtu.be/HIh9isHiar4
+
 ## Table of Contents
 - [GIF](#gif)
 - [Snapshot](#snapshot)
