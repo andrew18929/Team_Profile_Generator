@@ -38,7 +38,7 @@ If any issues please contact me through my GitHub account or through my email. B
 There are no contributing authors. If you would like to contribute please contact me through my GitHub account or through my email. Both GitHub account and Email are listed below.
 
 ## Tests
-- Make sure you install jest (npm i jest)
+- Make sure you install jest npm i jest
 - Start tests by running npm run test
 
 ## Questions
