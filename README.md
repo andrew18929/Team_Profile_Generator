@@ -45,6 +45,7 @@ There are no contributing authors. If you would like to contribute please contac
 If you have any questions or concerns, please contact me through my GitHub account or through my email. Both GitHub account and Email are listed below.
 
 ## Repository
+https://github.com/andrew18929/Team_Profile_Generator
 
 ## Email
 
