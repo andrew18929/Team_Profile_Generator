@@ -18,6 +18,7 @@ from Managers, Engineers, and Interns.
 - [License](#license)
 
 ## GIF
+https://user-images.githubusercontent.com/87145391/136307113-e4e54c25-5770-49cb-a030-e1605b6832aa.mp4
 
 ## Snapshot
 
